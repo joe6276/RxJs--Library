@@ -7,3 +7,7 @@ interval(100).pipe(
     take(4),
     switchMap(v=>v.pipe(toArray()))
 ).subscribe(v=>console.log(v))
+
+
+
+
